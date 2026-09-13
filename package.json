@@ -1,0 +1,20 @@
+{
+  "name": "skyarabia-crm-erp",
+  "version": "2.5.0",
+  "description": "شركة سكاي العربية - Sky Arabia Real Estate CRM & ERP Cloud System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-cron": "^4.6.0",
+    "nodemailer": "^9.0.5",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.7.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
